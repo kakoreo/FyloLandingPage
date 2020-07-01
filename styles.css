@@ -1,0 +1,162 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: hsl(243, 87%, 12%);
+  line-height: 1.5;
+  padding-bottom: 3%;
+}
+
+h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(243, 87%, 12%);
+  padding-bottom: 2%;
+}
+
+input {
+  font-size: 0.8rem;
+  padding: 7px;
+  width: 250px;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-colored {
+  color: white;
+}
+
+.section-container {
+  padding: 7% 5%;
+}
+
+.left-p {
+  padding-right: 19%;
+}
+
+.image {
+  width: 85%;
+  margin-left: 10%;
+}
+
+
+/* navigation bar section */
+.nav-container {
+  padding-top: 3%;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+/* home section */
+
+/* feature section */
+.curve-img {
+  width: 100%;
+}
+
+.feature {
+  background-color: hsl(240, 75%, 98%);
+}
+
+.green-p {
+  display: inline-block;
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  margin-bottom: 8%;
+}
+
+/* testimonial */
+.testimonial {
+  padding: 2% 5%;
+  width: 65%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quatation-img {
+  width: 20px;
+}
+
+.testimonial-comment {
+  line-height: 1.8;
+}
+
+.profile-img {
+  border-radius: 100%;
+  float: left;
+  width: 15%;
+  margin-right: 20px;
+}
+
+.testimonial-info {
+  font-size: 0.8rem;
+}
+
+/* getstarted */
+.getstarted {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.getstarted p {
+  padding: 0;
+  margin: 0;
+}
+
+.getstarted-email {
+  margin: auto;
+}
+
+.getstarted-email input {
+  display: block;
+  width: 70%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+/* information */
+.information {
+  background-color: hsl(243, 87%, 12%);
+  line-height: 2.5;
+  padding-bottom: 3%;
+  
+}
+
+.information h1 {
+  padding-bottom: 0;
+  font-size: 3.5rem;
+}
+
+.phone {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.icons {
+  color: white;
+  font-size: 24px;
+  padding-right: 1rem;
+}
+
+/* copyright */
+.copyright {
+  background-color: hsl(243, 87%, 12%);
+}
