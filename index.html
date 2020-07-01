@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- bootstrap css-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/3c96ab8ade.js" crossorigin="anonymous"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+  <section id="navigation-bar">
+
+    <div class="container-fluid nav-container">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <span class="navbar-brand mb-0 h1">
+          <img src="images\logo.svg" alt="">
+        </span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">Features</li>
+            <li class="nav-item">Team</li>
+            <li class="nav-item">Sign In</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </section>
+
+
+  <!-- home -->
+  <section id="home">
+    <div class="row section-container">
+      <div class="home-left col-6">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+
+        <div class="left-p">
+          <p>Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.</p>
+        </div>
+
+        <input type="email" placeholder="Enter your email..." name="" value="">
+        <button type="button" class="btn btn-primary" name="button">Get Started</button>
+      </div>
+
+      <div class="home-img col-6">
+        <img class="image" src="images\illustration-1.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- body -->
+
+  <section id="feature">
+    <img class="curve-img" src="images\bg-curve-desktop.svg" alt="">
+    <div class="row section-container feature">
+
+      <div class="col-6 content-left">
+        <h1>Stay productive, wherever you are</h1>
+
+        <div class="left-p">
+          <p>Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.</p>
+
+          <p>Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!</p>
+
+          <p class="green-p">See how Fylo works<img src="images\icon-arrow.svg" alt=""></p>
+        </div>
+
+        <!-- testimonial -->
+        <div class="testimonial card">
+          <div class="card-body">
+            <img class="quatation-img" src="images\icon-quotes.svg" alt="">
+            <p class="testimonial-comment">Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.</p>
+
+            <img class="profile-img" src="images\avatar-testimonial.jpg" alt="testimonial profile">
+
+            <h4>Kyle Burton</h4>
+            <p class="testimonial-info">Founder & CEO, Huddle</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-6 content-img">
+        <img class="image" src="images\illustration-2.svg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- get started -->
+  <section id="getstarted" class="getstarted">
+
+    <div class="row section-container">
+      <div class="getstarted-left col-6">
+        <h2 class="bg-colored">Get early access today</h2>
+
+        <div class="left-p">
+          <p class="bg-colored">It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.</p>
+        </div>
+      </div>
+
+      <div class="getstarted-email col-6">
+        <input type="email" placeholder="email@example.com" name="" value="">
+        <button type="button" class="btn btn-primary" name="button">Get Started For Free</button>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- information -->
+
+  <section id="information" class="information section-container">
+    <h1 class="bg-colored">Fylo</h1>
+
+    <div class="row">
+
+      <div class="col-4">
+        <p class="bg-colored phone"><img class="icons" src="images\icon-phone.svg" alt=""> Phone: +1-543-123-4567</p>
+        <p class="bg-colored"><img class="icons" src="images\icon-email.svg" alt=""> example@fylo.com</p>
+      </div>
+
+
+      <div class="about-us col-3">
+        <ul class="bg-colored list-unstyled">
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+
+      </div>
+
+      <div class="col-3 contact-us">
+        <ul class="bg-colored list-unstyled">
+          <li>Contact us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <i class="icons fab fa-facebook-f"></i>
+        <i class="icons fab fa-twitter"></i>
+        <i class="icons fab fa-instagram"></i>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer>
+
+    <section class="copyright bg-colored">
+      <div class="footer-copyright text-center py-3">Challenge by:
+        <a href="https://www.frontendmentor.io?ref=challenge"> Frontend Mentor</a>
+        <div>Coded by:
+          <a href="#">Kako Ishikawa</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </footer>
+</body>
+
+</html>
